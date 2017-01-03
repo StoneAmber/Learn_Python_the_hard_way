@@ -2,7 +2,7 @@
 
 # call argv from sys module
 from sys import argv
-#arfv will assign paramater to script and then filename
+# argv will assign paramater to script and then filename
 script, filename = argv
 # fuction open() open file with default read mode
 txt = open(filename)
